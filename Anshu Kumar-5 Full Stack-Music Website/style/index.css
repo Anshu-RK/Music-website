@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+/* #menu{
+    transform: translateX(0px);
+} */
+
+.main-content{
+ width: 74.2%;
+ position: absolute;
+ right: 0px;
+ top: 0px;
+ overflow-x: hidden;
+ z-index: 1;
+}
+.menu-a{
+    color:white;
+}
+.menu-a:hover{
+    color:yellow;
+}
+.menu-b{
+    padding: 5%;
+    margin: 5% 0 0 25%;
+    /* margin-top: 5%;
+    margin-left: 27%; */
+}
+.menu-b ul li{
+    font-size: larger;
+}
+.menu-b ul li span{
+    font-size:xx-large;
+}
+.life{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.life:hover{
+    color:rgb(252, 214, 0);
+}
+.activate{
+    color:rgb(252, 214, 0);
+}
+
+.about{
+    overflow-y: auto;
+    height: 100%;
+}
+/* Main-Content css */
+.main-content{
+    height: 100%;
+    overflow-y: hidden;
+}
+.bar{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: antiquewhite;
+    line-height: 50px;
+    background-color: #26de81
+}
+
+.bar div i{
+    margin-right: 20px;
+    font-size: larger;
+   
+
+}
+.trending{
+    background-color: rgba(41, 39, 39, 0.836);
+    padding: 2%;
+}
+.trend{
+    height: 250px;
+    width: 100px;
+   
+    
+    padding: 2%;
+}
+/* .song{
+  
+} */
+.song:hover .icon{
+   display: inline;
+   color:tomato;
+}
+.trend-song{
+    text-decoration: none;
+    color: rgba(41, 39, 39, 0.836);
+    
+}
+
+.mood{
+    background-color: rgba(41, 39, 39, 0.836);
+    padding: 2%;
+}
+
+.icon{
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size:  -webkit-xxx-large;
+}
+.Old_Is_Gold{
+    background-color: rgba(41, 39, 39, 0.836);
+    padding: 2%;
+}
+.menu{
+    width: 350px;
+    height: 100%;
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    transform: translateX(0px);
+    transition: transform 500ms;
+    
+}
+.toggle{
+    width: 100%;
+    height: 71px;
+    box-sizing: border-box;
+    background-color: rgb(32, 31, 31);
+    position: relative;
+    z-index: 15;
+    display: none;
+}
+.line{
+    height: 2px;
+    width: 35px;
+    
+    margin: 8px;
+    background-color: antiquewhite;
+}
+
+.cook{
+    display: none;
+}
+@media only screen and (max-width: 1024px) {
+    .main-content{
+        width: 65.5%;
+       
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-content{
+        width: 100%;
+        top:13%;
+        overflow-x: hidden;
+    }
+    .menu{
+        transform: translateX(-350px);
+        width: 300px;
+    }
+  
+    .toggle{
+        display: block;
+    }
+    .cook{
+        display: block;
+    }
+    .bar{
+        display: none;
+    }  
+}
+@media only screen and (max-width: 770px) {
+.mood{
+    margin-top: 14%;
+}
+.Old_Is_Gold{
+    margin-top: 14%;
+}
+}
+
+/* Search */
+
+.search{
+    overflow-y: auto;
+    height: 100%;
+
+    width: 100%;
+}
+
+.search-bar{
+    height: 80px;
+    width: 100%;
+    
+    background-color: tomato;
+    opacity: 0.8;
+}
+.contain{
+    margin: auto ;
+    position: relative;
+    top: 17%;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+input[type="search"]{
+    width: 95%;
+    border-radius: 10px;
+    height: 100%;
+    /* border: 0px solid antiquewhite; */
+    outline-color: antiquewhite;
+    outline-width: 0px;
+    border: unset;
+}
+.aud{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: antiquewhite;
+    position: fixed;
+    opacity: 0.9;
+    bottom: 40px;
+    left: 0px;
+    z-index: 30;
+}

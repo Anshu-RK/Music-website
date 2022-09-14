@@ -1,0 +1,49 @@
+/* html,body{
+    height: 100%;
+    width: 100%;
+} */
+.library{
+    overflow-y: auto;
+    height: 100%;
+}
+.top{
+    height: 80px;
+    background-color: blueviolet;
+}
+.play{
+    padding: 1%;
+}
+.king{
+    width: 40%;
+    padding: 2%;
+    display: flex;
+    align-items: baseline;
+    color: antiquewhite;
+    border-radius: 10px;
+    height: 300px;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.girl{
+    margin-left: 20%;
+    color:antiquewhite;
+     cursor:pointer;
+}
+@media only screen and (max-width: 320px) {
+    .girl{
+        margin-left: 7%;
+    }
+    .king{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .girl{
+        margin-left: 7%;
+    }
+    .king{
+        width: 90%;
+    }
+}

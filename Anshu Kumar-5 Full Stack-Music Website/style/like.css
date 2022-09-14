@@ -1,0 +1,79 @@
+.boom{
+    overflow-y: auto;
+    height: 100%;
+}
+.like-heading{
+    
+    width: 100%;
+    background-color:rgb(126, 26, 126);
+    padding: 3%;
+    display: flex;
+    
+}
+.like-heading h3{
+    font-size: 70px;
+    line-height: 100px;
+    color: #ffee00  ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif    ;
+}
+input[type="submit"]{
+    border-radius: 30px;
+    height: 40px;
+    width: 130px;
+    box-shadow: inset 5px 5px 12px red;
+    font-size: large;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: #26de81;
+}
+.show{
+    background-color: rgb(190, 31, 190);
+    height: 700px;
+    padding: 5px;
+}
+.warn{
+    font-size: 100px;
+    color: #95a5a6;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 50px;
+}
+.justin{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 425px) {
+    .warn {
+        font-size: 45px;
+    }
+    .like-heading h3 {
+        font-size: 41px;
+        line-height: 50px;
+    }
+    .like-heading {
+         display: block; 
+    }   
+    .justin{
+        margin-left: 0px;
+    }  
+    .justin form{
+        margin-top: 10px;
+    }
+    }
+@media only screen and (max-width: 320px) {
+.warn {
+    font-size: 40px;
+}
+.like-heading h3 {
+    font-size: 39px;
+    line-height: 46px;
+}
+.like-heading {
+     display: block; 
+}   
+.justin{
+    margin-left: 0px;
+}  
+.justin form{
+    margin-top: 7px;
+}
+}
